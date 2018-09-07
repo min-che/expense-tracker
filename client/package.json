@@ -18,9 +18,10 @@
     "redux": "^4.0.0"
   },
   "devDependencies": {
-    "@storybook/react": "^3.4.10",
     "@storybook/addon-actions": "^3.4.10",
-    "@storybook/addon-links": "^3.4.10"
+    "@storybook/addon-links": "^3.4.10",
+    "@storybook/react": "^3.4.10",
+    "flow-bin": "^0.80.0"
   },
   "jest": {
     "collectCoverageFrom": [

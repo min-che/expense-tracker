@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+body a {
+    color: rgba(255, 0, 135, 0.7);
+    text-decoration: underline;
+}
+body a:hover {
+    color: #ff0087;
+}
+body button {
+    background-color: transparent;
+    border: none;
+    color: #323232;
+    cursor: pointer;
+}
+body button:focus {
+    outline: none;
+}
+body #ufc-root {
+    height: 100%;
+}
+body #ufc-root > div[class^="theme-"] {
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555555;
+    border-radius: 3.5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3.5px;
+}
+.theme-dark ::-webkit-scrollbar-thumb {
+    background: #555555;
+}
+.theme-light ::-webkit-scrollbar-thumb {
+    background: #979797;
+}
+
+:focus::-webkit-input-placeholder {
+    text-indent: -999px;
+}
+
+:focus::-moz-placeholder {
+    text-indent: -999px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 7px, rgba(0, 0, 0, 0.1) 1px, transparent 8px), repeating-linear-gradient(90deg, transparent, transparent 7px, rgba(0, 0, 0, 0.1) 1px, transparent 8px);
+    background-size: 8px 8px;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, "sans-serif";
+    font-size: 14px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a {
+    color: #008489;
+    font-weight: bold;
+}

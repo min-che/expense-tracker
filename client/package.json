@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-storybook": "build-storybook -s public",
+    "start": "react-scripts start",
+    "storybook": "start-storybook -p 9009 -s public",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -14,6 +16,11 @@
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.5",
     "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.10",
+    "@storybook/addon-actions": "^3.4.10",
+    "@storybook/addon-links": "^3.4.10"
   },
   "jest": {
     "collectCoverageFrom": [

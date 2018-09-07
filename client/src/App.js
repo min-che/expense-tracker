@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCreditCard, faMoneyBillAlt, faMoneyCheck } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 class App extends Component {
@@ -7,11 +9,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <FontAwesomeIcon className="App-logo" icon={faMoneyBillAlt} />
+          <FontAwesomeIcon className="App-logo" icon={faCreditCard} />
+          <FontAwesomeIcon className="App-logo" icon={faMoneyCheck} />
+          <h1 className="App-title">Welcome to Expense Tracker</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          ...in progress
         </p>
       </div>
     );

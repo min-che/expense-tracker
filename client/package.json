@@ -1,0 +1,30 @@
+{
+  "name": "expense-tracker-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js",
+      "!src/setupTests.js",
+      "!src/**/*.stories.js",
+      "!<rootDir>/node_modules/"
+    ],
+    "coverageReporters": [
+      "html"
+    ]
+  }
+}
